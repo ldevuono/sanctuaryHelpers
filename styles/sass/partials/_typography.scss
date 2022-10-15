@@ -1,5 +1,42 @@
 @use './variables';
 
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&family=Kumar+One+Outline&family=Lato:wght@400;700&display=swap');
+
+
 html {
     font-size: 125%;
+}
+
+body {
+    font-family: variables.$bodyFont;
+    font-size: .8rem;
+    line-height: 32px;
+    color: variables.$black;
+    letter-spacing: 1.5px;
+}
+
+h1 {
+    font-family: variables.$h1Font;
+    font-size: 3.5rem;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+
+h2,
+.button {
+    font-family: variables.$h2Font;
+    font-size: 1.5rem;
+    line-height: 58px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+}
+
+.button {
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
 }
