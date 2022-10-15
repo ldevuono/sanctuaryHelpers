@@ -1,0 +1,8 @@
+@use './variables';
+
+.indexIcons {
+    width: 60px;
+    background-color: variables.$highlight;
+    border-radius: 50%;
+    padding: 10px;
+}

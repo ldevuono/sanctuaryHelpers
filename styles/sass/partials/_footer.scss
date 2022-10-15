@@ -1,0 +1,16 @@
+@use './variables';
+
+footer {
+    color: variables.$white;
+    background-color: variables.$black;
+    padding: 8px;
+    text-align: center;
+}
+
+//TODO: figure our footer on contact page
+
+.contactFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
