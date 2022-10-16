@@ -281,9 +281,10 @@ h1 {
 }
 
 h2,
-.button {
+.button,
+.logo {
   font-family: "Kumar One";
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 58px;
   letter-spacing: 2.1px;
   text-transform: uppercase;
@@ -292,6 +293,13 @@ h2,
 .button {
   font-size: 1rem;
   letter-spacing: 1px;
+}
+
+.logo {
+  font-size: 1.3rem;
+  letter-spacing: 1.2px;
+  line-height: 25px;
+  font-weight: 400;
 }
 
 nav a {
@@ -344,7 +352,7 @@ header {
   background-position: center;
   margin-bottom: 50px;
 }
-header .wrapper {
+header .headerWrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,8 +386,35 @@ header .headerBoxImage {
   padding: 10px;
 }
 
+.contactHeader {
+  background-image: url("./../assets/contact-image.jpg");
+}
+
+.contacth1,
+.blogh1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 30px;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.contactFormSection {
+  background-color: #e0fddf;
+}
+
 .contactIcons {
   width: 20px;
+}
+
+.blogHeader {
+  background-image: url("./../assets/blog-image.jpg");
 }
 
 footer {

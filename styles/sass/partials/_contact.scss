@@ -1,5 +1,31 @@
 @use './variables';
 
+
+.contactHeader {
+    background-image: url("./../assets/contact-image.jpg");
+}
+
+.contacth1,
+.blogh1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+
+.contactFormSection {
+    background-color: variables.$mint;
+}
+
+
+
+
+
+
 .contactIcons {
     width: 20px;
 }
