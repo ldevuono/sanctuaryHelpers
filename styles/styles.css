@@ -346,13 +346,19 @@ section {
   padding: 60px 0;
 }
 
+.logo {
+  margin-top: 20px;
+}
+.logo span {
+  display: block;
+}
+
 header {
   background-image: url("./../assets/header-home.jpg");
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 50px;
 }
 header .headerWrapper {
   display: -webkit-box;
@@ -388,6 +394,10 @@ header .headerBoxImage {
   padding: 10px;
 }
 
+.newMaterials {
+  margin-top: 60px;
+}
+
 .contactHeader {
   background-image: url("./../assets/contact-image.jpg");
 }
@@ -401,10 +411,6 @@ header .headerBoxImage {
       -ms-flex-pack: start;
           justify-content: flex-start;
   padding-left: 30px;
-}
-
-.logo {
-  margin-top: 20px;
 }
 
 .contactFormSection {
@@ -432,15 +438,32 @@ header .headerBoxImage {
   top: 100px;
 }
 
+.blogSection {
+  width: 60%;
+  position: relative;
+  left: 0;
+  top: -200px;
+}
+
+.blogText {
+  background-color: #f5f5f5;
+  border-bottom: 5px solid #f8fb05;
+  border-right: 5px solid #f8fb05;
+  padding: 20px 30px 30px 80px;
+  margin-top: 20px;
+}
+.blogText p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.blogImage {
+  -webkit-box-shadow: 20px 20px #f8fb05;
+          box-shadow: 20px 20px #f8fb05;
+}
+
 footer {
   color: #f5f5f5;
   background-color: #151514;
   padding: 5px;
   text-align: center;
-}
-
-.contactFooter {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }

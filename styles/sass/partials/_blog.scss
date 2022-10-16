@@ -16,3 +16,27 @@
     right: 0;
     top: 100px;
 }
+
+.blogSection {
+    width: 60%;
+    position: relative;
+    left: 0;
+    top: -200px;
+}
+
+.blogText {
+    background-color: variables.$white;
+    border-bottom: 5px solid variables.$highlight;
+    border-right: 5px solid variables.$highlight;
+    padding: 20px 30px 30px 80px;
+    margin-top: 20px;
+
+    p:not(:last-child) {
+        margin-bottom: 20px;
+
+    }
+}
+
+.blogImage {
+    box-shadow: 20px 20px variables.$highlight;
+}
