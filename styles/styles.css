@@ -302,6 +302,8 @@ h3 {
   background-color: #065635;
   border: 1px solid #151514;
   padding: 5px 10px 0 10px;
+  display: inline-block;
+  margin: 15px 0;
 }
 
 .logo {
@@ -534,6 +536,24 @@ header .headerBoxImage {
   position: absolute;
   right: 0;
   top: 100px;
+}
+.aside .asideText {
+  padding: 20px;
+}
+.aside .asideText h3:nth-of-type(2) {
+  margin-top: 10px;
+}
+.aside .asideText ul {
+  list-style: inside;
+}
+.aside .asideText ul p {
+  display: inline;
+}
+.aside .asideImage {
+  width: 95%;
+  position: relative;
+  top: -10px;
+  right: -15px;
 }
 
 footer {

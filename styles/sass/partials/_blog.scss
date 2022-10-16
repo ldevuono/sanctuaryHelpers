@@ -67,16 +67,38 @@
     margin: 20px 0 60px 0;
 }
 
-
-
 // Form
 
 
 // Aside
+
 .aside {
     background-color: variables.$highlight;
     width: 300px;
     position: absolute;
     right: 0;
     top: 100px;
+
+    .asideText {
+        padding: 20px;
+
+        h3:nth-of-type(2) {
+            margin-top: 10px;
+        }
+
+        ul {
+            list-style: inside;
+
+            p {
+                display: inline;
+            }
+        }
+    }
+
+    .asideImage {
+        width: 95%;
+        position: relative;
+        top: -10px;
+        right: -15px;
+    }
 }
