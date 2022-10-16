@@ -1,27 +1,23 @@
 @use './variables';
 
-
+// Header
 .contactHeader {
     background-image: url("./../assets/contact-image.jpg");
 }
 
 .contacth1,
 .blogh1 {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 30px;
+    margin-top: 100px;
 }
 
 
 
 
-
+// Form
 
 .contactFormSection {
     background-color: variables.$mint;
 }
-
-
 
 .contactIcons {
     width: 20px;

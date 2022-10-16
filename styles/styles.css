@@ -267,10 +267,10 @@ html {
 
 body {
   font-family: "Lato";
-  font-size: 0.8rem;
-  line-height: 32px;
+  font-size: 0.9rem;
+  line-height: 25px;
   color: #151514;
-  letter-spacing: 1.3px;
+  letter-spacing: 1.1px;
 }
 
 h1 {
@@ -286,15 +286,22 @@ h3,
 .logo {
   font-family: "Kumar One";
   font-size: 1.2rem;
-  line-height: 58px;
+  line-height: 40px;
   letter-spacing: 2.1px;
   text-transform: uppercase;
 }
 
 .button,
 h3 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   letter-spacing: 1px;
+}
+
+.button {
+  color: #f5f5f5;
+  background-color: #065635;
+  border: 1px solid #151514;
+  padding: 5px 10px 0 10px;
 }
 
 .logo {
@@ -310,7 +317,7 @@ nav a {
 }
 
 .wrapper {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
   max-width: 1260px;
 }
@@ -359,6 +366,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 }
 header .headerWrapper {
   display: -webkit-box;
@@ -377,14 +385,62 @@ header .headerNav {
           justify-content: center;
 }
 header .headerNav li {
-  padding: 20px 25px;
+  padding: 20px 0px 0px 30px;
 }
-header h1 {
-  margin: 100px 0 0 100px;
+header .headerNav li a:hover {
+  border-bottom: 2px solid #f8fb05;
+  padding-bottom: 2px;
+}
+header .indexh1 {
+  margin: 100px 0 0 0;
 }
 header .headerBoxImage {
   width: 55%;
-  margin-top: 30px;
+  position: absolute;
+  top: 265px;
+}
+
+.newMaterials {
+  margin-top: 60px;
+}
+
+.newMaterialsFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.newMaterialsFlex .newMaterialsText {
+  max-width: 70%;
+  margin-right: 85px;
+}
+.newMaterialsFlex .newMaterialsImage {
+  max-width: 30%;
+}
+.newMaterialsFlex .newMaterialsImage img {
+  -webkit-box-shadow: -15px 15px #f8fb05;
+          box-shadow: -15px 15px #f8fb05;
+}
+
+.gallery {
+  background-color: #e0fddf;
+}
+
+.indexGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.indexGallery li {
+  margin: 0 10px;
+  width: calc(33.3333333333% - 20px);
 }
 
 .indexIcons {
@@ -394,23 +450,13 @@ header .headerBoxImage {
   padding: 10px;
 }
 
-.newMaterials {
-  margin-top: 60px;
-}
-
 .contactHeader {
   background-image: url("./../assets/contact-image.jpg");
 }
 
 .contacth1,
 .blogh1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding-left: 30px;
+  margin-top: 100px;
 }
 
 .contactFormSection {
@@ -430,14 +476,6 @@ header .headerBoxImage {
   position: relative;
 }
 
-.aside {
-  background-color: #f8fb05;
-  width: 300px;
-  position: absolute;
-  right: 0;
-  top: 100px;
-}
-
 .blogSection {
   width: 60%;
   position: relative;
@@ -445,20 +483,57 @@ header .headerBoxImage {
   top: -200px;
 }
 
-.blogText {
+.blogPost {
   background-color: #f5f5f5;
   border-bottom: 5px solid #f8fb05;
   border-right: 5px solid #f8fb05;
-  padding: 20px 30px 30px 80px;
   margin-top: 20px;
 }
-.blogText p:not(:last-child) {
+.blogPost .blogText {
+  padding: 35px 0;
+}
+.blogPost .blogText p:not(:last-child) {
   margin-bottom: 20px;
 }
-
-.blogImage {
+.blogPost .blogImage {
+  max-width: calc(100% - 20px);
   -webkit-box-shadow: 20px 20px #f8fb05;
           box-shadow: 20px 20px #f8fb05;
+}
+
+.comments {
+  margin: 25px auto;
+}
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.comment .commentImage {
+  width: 25%;
+}
+.comment .commentText {
+  margin-left: 20px;
+}
+.comment .commentText p:first-of-type {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.comment1 {
+  margin: 20px 0 60px 0;
+}
+
+.aside {
+  background-color: #f8fb05;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  top: 100px;
 }
 
 footer {

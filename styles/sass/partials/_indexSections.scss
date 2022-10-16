@@ -1,5 +1,51 @@
 @use './variables';
 
+
+// NEW MATERIALS SECTION 
+
+.newMaterials {
+    margin-top: 60px;
+}
+
+.newMaterialsFlex {
+    display: flex;
+    justify-content: space-between;
+
+
+    .newMaterialsText {
+        max-width: 70%;
+        margin-right: 85px;
+    }
+
+    .newMaterialsImage {
+        max-width: 30%;
+
+        img {
+            box-shadow: -15px 15px variables.$highlight;
+        }
+    }
+}
+
+
+// GALLERY
+.gallery {
+    background-color: variables.$mint;
+}
+
+.indexGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+        margin: 0 10px;
+        width: calc((100% / 3) - 20px);
+    }
+}
+
+
+//LINKS
+
 .indexIcons {
     width: 60px;
     background-color: variables.$highlight;
@@ -7,6 +53,9 @@
     padding: 10px;
 }
 
-.newMaterials {
-    margin-top: 60px;
-}
+//PROGRAMS AND LOCATIONS
+
+
+
+
+//SEARCH BY STYLE

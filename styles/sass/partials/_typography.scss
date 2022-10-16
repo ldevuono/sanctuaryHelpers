@@ -9,10 +9,10 @@ html {
 
 body {
     font-family: variables.$bodyFont;
-    font-size: .8rem;
-    line-height: 32px;
+    font-size: .9rem;
+    line-height: 25px;
     color: variables.$black;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.1px;
 }
 
 h1 {
@@ -28,15 +28,22 @@ h3,
 .logo {
     font-family: variables.$h2Font;
     font-size: 1.2rem;
-    line-height: 58px;
+    line-height: 40px;
     letter-spacing: 2.1px;
     text-transform: uppercase;
 }
 
 .button,
 h3 {
-    font-size: 1rem;
+    font-size: .8rem;
     letter-spacing: 1px;
+}
+
+.button {
+    color: variables.$white;
+    background-color: variables.$button;
+    border: 1px solid variables.$black;
+    padding: 5px 10px 0 10px;
 }
 
 .logo {
