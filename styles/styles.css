@@ -270,7 +270,7 @@ body {
   font-size: 0.8rem;
   line-height: 32px;
   color: #151514;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.3px;
 }
 
 h1 {
@@ -281,6 +281,7 @@ h1 {
 }
 
 h2,
+h3,
 .button,
 .logo {
   font-family: "Kumar One";
@@ -290,7 +291,8 @@ h2,
   text-transform: uppercase;
 }
 
-.button {
+.button,
+h3 {
   font-size: 1rem;
   letter-spacing: 1px;
 }
@@ -415,6 +417,19 @@ header .headerBoxImage {
 
 .blogHeader {
   background-image: url("./../assets/blog-image.jpg");
+}
+
+.blog {
+  background-color: #e0fddf;
+  position: relative;
+}
+
+.aside {
+  background-color: #f8fb05;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  top: 100px;
 }
 
 footer {

@@ -3,3 +3,16 @@
 .blogHeader {
     background-image: url("./../assets/blog-image.jpg");
 }
+
+.blog {
+    background-color: variables.$mint;
+    position: relative;
+}
+
+.aside {
+    background-color: variables.$highlight;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
