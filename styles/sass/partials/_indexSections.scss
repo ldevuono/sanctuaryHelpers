@@ -53,6 +53,17 @@
     padding: 10px;
 }
 
+
+.indexLinksFlex {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        width: calc((100% / 2) - 40px);
+        margin: 20px;
+    }
+}
+
 //PROGRAMS AND LOCATIONS
 
 
