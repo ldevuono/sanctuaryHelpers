@@ -47,10 +47,10 @@
 //LINKS
 
 .indexIcons {
-    width: 60px;
+    width: 250px;
     background-color: variables.$highlight;
     border-radius: 50%;
-    padding: 10px;
+    padding: 8px;
 }
 
 
@@ -61,8 +61,17 @@
     li {
         width: calc((100% / 2) - 40px);
         margin: 20px;
+        display: flex;
+        justify-content: space-evenly;
+
+        div {
+            margin-left: 20px;
+        }
     }
 }
+
+
+
 
 //PROGRAMS AND LOCATIONS
 

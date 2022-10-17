@@ -461,10 +461,10 @@ header .headerBoxImage {
 }
 
 .indexIcons {
-  width: 60px;
+  width: 250px;
   background-color: #f8fb05;
   border-radius: 50%;
-  padding: 10px;
+  padding: 8px;
 }
 
 .indexLinksFlex {
@@ -477,6 +477,15 @@ header .headerBoxImage {
 .indexLinksFlex li {
   width: calc(50% - 40px);
   margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.indexLinksFlex li div {
+  margin-left: 20px;
 }
 
 .contactHeader {
