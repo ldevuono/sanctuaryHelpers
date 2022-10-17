@@ -6,7 +6,6 @@
     background-image: url("./../assets/blog-image.jpg");
 }
 
-// Blog post 
 .blog {
     background-color: variables.$mint;
     position: relative;
@@ -26,7 +25,8 @@
     margin-top: 20px;
 
     .blogText {
-        padding: 35px 0;
+        padding: 35px 20px 20px 50px;
+
 
         p:not(:last-child) {
             margin-bottom: 20px;
@@ -36,13 +36,17 @@
     .blogImage {
         max-width: calc(100% - 20px);
         box-shadow: 20px 20px variables.$highlight;
+
+        img {
+            width: 100%;
+        }
     }
 }
 
 //Comments
 
 .comments {
-    margin: 25px auto;
+    margin: 25px 130px;
 }
 
 .comment {
@@ -67,7 +71,7 @@
     margin: 20px 0 60px 0;
 }
 
-// Form
+//Form 
 
 
 // Aside
