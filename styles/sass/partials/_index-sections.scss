@@ -88,9 +88,37 @@
 .programs-locations {
     background-color: variables.$mint;
 
-    .programs-flex,
-    .locations-flex {
+    .programs-locations-flex {
         display: flex;
+
+        .programs-locations-image {
+            width: 40%;
+        }
+
+        .programs-locations-text {
+            width: 60%;
+            padding: 0 100px;
+        }
+    }
+
+    .programs-flex {
+        position: relative;
+
+        .programs-image {
+            position: relative;
+            bottom: 90px;
+            left: 0;
+        }
+    }
+
+    .locations-flex {
+        position: relative;
+
+        .locations-image {
+            position: relative;
+            bottom: -90px;
+            right: 0;
+        }
     }
 }
 

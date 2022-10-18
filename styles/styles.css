@@ -413,8 +413,9 @@ header .index-h1 {
 }
 header .header-box-image {
   width: 55%;
+  min-width: 25%;
   position: absolute;
-  top: 265px;
+  top: 40%;
 }
 
 .new-materials {
@@ -503,11 +504,33 @@ header .header-box-image {
 .programs-locations {
   background-color: #e0fddf;
 }
-.programs-locations .programs-flex,
-.programs-locations .locations-flex {
+.programs-locations .programs-locations-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.programs-locations .programs-locations-flex .programs-locations-image {
+  width: 40%;
+}
+.programs-locations .programs-locations-flex .programs-locations-text {
+  width: 60%;
+  padding: 0 100px;
+}
+.programs-locations .programs-flex {
+  position: relative;
+}
+.programs-locations .programs-flex .programs-image {
+  position: relative;
+  bottom: 90px;
+  left: 0;
+}
+.programs-locations .locations-flex {
+  position: relative;
+}
+.programs-locations .locations-flex .locations-image {
+  position: relative;
+  bottom: -90px;
+  right: 0;
 }
 
 .contact-header {
