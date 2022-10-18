@@ -460,8 +460,8 @@ header .headerBoxImage {
   width: calc(33.3333333333% - 20px);
 }
 
-.indexIcons {
-  width: 250px;
+.indexLinksIcons {
+  width: 170px;
   background-color: #f8fb05;
   border-radius: 50%;
   padding: 8px;
@@ -475,8 +475,8 @@ header .headerBoxImage {
       flex-wrap: wrap;
 }
 .indexLinksFlex li {
-  width: calc(50% - 40px);
-  margin: 20px;
+  width: 50%;
+  margin: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -484,7 +484,7 @@ header .headerBoxImage {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
-.indexLinksFlex li div {
+.indexLinksFlex li .indexLinksText {
   margin-left: 20px;
 }
 

@@ -46,8 +46,8 @@
 
 //LINKS
 
-.indexIcons {
-    width: 250px;
+.indexLinksIcons {
+    width: 170px;
     background-color: variables.$highlight;
     border-radius: 50%;
     padding: 8px;
@@ -59,12 +59,12 @@
     flex-wrap: wrap;
 
     li {
-        width: calc((100% / 2) - 40px);
-        margin: 20px;
+        width: 50%;
+        margin: 20px 0;
         display: flex;
         justify-content: space-evenly;
 
-        div {
+        .indexLinksText {
             margin-left: 20px;
         }
     }
