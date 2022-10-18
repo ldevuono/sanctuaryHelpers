@@ -85,41 +85,42 @@
 
 
 //PROGRAMS AND LOCATIONS
-.programs-locations {
+.locations-programs {
     background-color: variables.$mint;
+    display: flex;
 
-    .programs-locations-flex {
+    .locations-programs-flex {
         display: flex;
+        flex-direction: column;
 
-        .programs-locations-image {
-            width: 40%;
+        .locations-programs-image {
+            width: 50%;
         }
 
-        .programs-locations-text {
-            width: 60%;
-            padding: 0 100px;
-        }
-    }
-
-    .programs-flex {
-        position: relative;
-
-        .programs-image {
-            position: relative;
-            bottom: 90px;
-            left: 0;
+        .locations-programs-text {
+            width: 50%;
         }
     }
 
-    .locations-flex {
-        position: relative;
+    // .programs-flex {
+    //     position: relative;
 
-        .locations-image {
-            position: relative;
-            bottom: -90px;
-            right: 0;
-        }
-    }
+    //     .programs-image {
+    //         position: relative;
+    //         bottom: 90px;
+    //         left: 0;
+    //     }
+    // }
+
+    // .locations-flex {
+    //     position: relative;
+
+    //     .locations-image {
+    //         position: relative;
+    //         bottom: -90px;
+    //         right: 0;
+    //     }
+    // }
 }
 
 
