@@ -461,10 +461,15 @@ header .header-box-image {
 }
 
 .index-links-icons {
-  width: 170px;
+  min-width: 45px;
   background-color: #f8fb05;
   border-radius: 50%;
   padding: 8px;
+}
+
+.phone {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 
 .index-links-flex {
@@ -497,6 +502,12 @@ header .header-box-image {
 
 .programs-locations {
   background-color: #e0fddf;
+}
+.programs-locations .programs-flex,
+.programs-locations .locations-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .contact-header {

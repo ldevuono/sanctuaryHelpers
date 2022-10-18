@@ -47,12 +47,15 @@
 //LINKS
 
 .index-links-icons {
-    width: 170px;
+    min-width: 45px;
     background-color: variables.$highlight;
     border-radius: 50%;
     padding: 8px;
 }
 
+.phone {
+    transform: scaleX(-1);
+}
 
 .index-links-flex {
     display: flex;
@@ -76,6 +79,7 @@
                 padding: 2px;
             }
         }
+
     }
 }
 
@@ -83,6 +87,11 @@
 //PROGRAMS AND LOCATIONS
 .programs-locations {
     background-color: variables.$mint;
+
+    .programs-flex,
+    .locations-flex {
+        display: flex;
+    }
 }
 
 
