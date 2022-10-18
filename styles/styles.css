@@ -532,6 +532,13 @@ header .header-box-image {
   bottom: -90px;
   right: 0;
 }
+.programs-locations .locations-flex .locations-text {
+  text-align: right;
+}
+
+.search {
+  padding: 0;
+}
 
 .contact-header {
   background-image: url("./../assets/contact-image.jpg");
