@@ -84,45 +84,49 @@
 }
 
 
-//PROGRAMS AND LOCATIONS
+//LOCATIONS AND PROGRAMS
 .locations-programs {
     background-color: variables.$mint;
     display: flex;
 
+    .locations-programs-text {
+        width: 70%;
+    }
+
+    .locations-image {
+        position: relative;
+        top: -80px;
+        right: 0;
+        box-shadow: 15px 15px variables.$highlight;
+    }
+
+    .programs-image {
+        position: relative;
+        bottom: -80px;
+        left: 0;
+        box-shadow: -15px 15px variables.$highlight;
+    }
+
     .locations-programs-flex {
         display: flex;
         flex-direction: column;
-
-        .locations-programs-image {
-            width: 50%;
-        }
-
-        .locations-programs-text {
-            width: 50%;
-        }
     }
 
-    // .programs-flex {
-    //     position: relative;
+    .programs-flex {
+        flex-direction: column-reverse;
+        margin-left: 100px;
+    }
 
-    //     .programs-image {
-    //         position: relative;
-    //         bottom: 90px;
-    //         left: 0;
-    //     }
-    // }
-
-    // .locations-flex {
-    //     position: relative;
-
-    //     .locations-image {
-    //         position: relative;
-    //         bottom: -90px;
-    //         right: 0;
-    //     }
-    // }
+    .locations-flex {
+        align-items: flex-end;
+        text-align: right;
+    }
 }
 
 
 
 //SEARCH BY STYLE
+
+.search {
+    padding: 0;
+}
