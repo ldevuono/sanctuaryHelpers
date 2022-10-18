@@ -487,6 +487,13 @@ header .headerBoxImage {
 .indexLinksFlex li .indexLinksText {
   margin-left: 20px;
 }
+.indexLinksFlex li .indexLinksText h2 {
+  display: inline;
+}
+.indexLinksFlex li .indexLinksText a:hover {
+  border-bottom: 2px solid #f8fb05;
+  padding: 2px;
+}
 
 .programsLocations {
   background-color: #e0fddf;
