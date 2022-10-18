@@ -1,12 +1,12 @@
 @use './variables';
 
 // Header
-.contactHeader {
+.contact-header {
     background-image: url("./../assets/contact-image.jpg");
 }
 
-.contacth1,
-.blogh1 {
+.contact-h1,
+.blog-h1 {
     margin-top: 100px;
 }
 
@@ -14,10 +14,10 @@
 
 
 //Form 
-.contactFormSection {
+.contact-form-section {
     background-color: variables.$mint;
 }
 
-.contactIcons {
+.contact-icons {
     width: 20px;
 }

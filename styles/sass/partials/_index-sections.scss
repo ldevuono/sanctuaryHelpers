@@ -3,21 +3,21 @@
 
 // NEW MATERIALS SECTION 
 
-.newMaterials {
+.new-materials {
     margin-top: 60px;
 }
 
-.newMaterialsFlex {
+.new-materials-flex {
     display: flex;
     justify-content: space-between;
 
 
-    .newMaterialsText {
+    .new-materials-text {
         max-width: 70%;
         margin-right: 85px;
     }
 
-    .newMaterialsImage {
+    .new-materials-image {
         max-width: 30%;
 
         img {
@@ -32,7 +32,7 @@
     background-color: variables.$mint;
 }
 
-.indexGallery {
+.index-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -46,7 +46,7 @@
 
 //LINKS
 
-.indexLinksIcons {
+.index-links-icons {
     width: 170px;
     background-color: variables.$highlight;
     border-radius: 50%;
@@ -54,7 +54,7 @@
 }
 
 
-.indexLinksFlex {
+.index-links-flex {
     display: flex;
     flex-wrap: wrap;
 
@@ -64,7 +64,7 @@
         display: flex;
         justify-content: space-evenly;
 
-        .indexLinksText {
+        .index-links-text {
             margin-left: 20px;
 
             h2 {
@@ -81,7 +81,7 @@
 
 
 //PROGRAMS AND LOCATIONS
-.programsLocations {
+.programs-locations {
     background-color: variables.$mint;
 }
 

@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    font-family: variables.$bodyFont;
+    font-family: variables.$body-font;
     font-size: .9rem;
     line-height: 25px;
     color: variables.$black;
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    font-family: variables.$h1Font;
+    font-family: variables.$h1-font;
     font-size: 3.5rem;
     line-height: 64px;
     text-transform: uppercase;
@@ -26,7 +26,7 @@ h2,
 h3,
 .button,
 .logo {
-    font-family: variables.$h2Font;
+    font-family: variables.$h2-font;
     font-size: 1.2rem;
     line-height: 40px;
     letter-spacing: 2.1px;

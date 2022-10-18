@@ -8,17 +8,17 @@ header {
     background-position: center;
     position: relative;
 
-    .headerWrapper {
+    .header-wrapper {
         display: flex;
         justify-content: space-between;
     }
 
-    .headerNav {
+    .header-nav {
         display: flex;
         justify-content: center;
     }
 
-    .headerNav li {
+    .header-nav li {
         padding: 20px 0px 0px 30px;
 
         a:hover {
@@ -27,11 +27,11 @@ header {
         }
     }
 
-    .indexh1 {
+    .index-h1 {
         margin: 100px 0 0 0;
     }
 
-    .headerBoxImage {
+    .header-box-image {
         width: 55%;
         position: absolute;
         top: 265px;

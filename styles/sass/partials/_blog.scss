@@ -2,7 +2,7 @@
 
 // Header 
 
-.blogHeader {
+.blog-header {
     background-image: url("./../assets/blog-image.jpg");
 }
 
@@ -11,20 +11,20 @@
     position: relative;
 }
 
-.blogSection {
+.blog-section {
     width: 60%;
     position: relative;
     left: 0;
     top: -200px;
 }
 
-.blogPost {
+.blog-post {
     background-color: variables.$white;
     border-bottom: 5px solid variables.$highlight;
     border-right: 5px solid variables.$highlight;
     margin-top: 20px;
 
-    .blogText {
+    .blog-text {
         padding: 35px 20px 20px 50px;
 
 
@@ -33,7 +33,7 @@
         }
     }
 
-    .blogImage {
+    .blog-image {
         max-width: calc(100% - 20px);
         box-shadow: 20px 20px variables.$highlight;
 
@@ -53,11 +53,11 @@
     display: flex;
     justify-content: space-between;
 
-    .commentImage {
+    .comment-image {
         width: 25%;
     }
 
-    .commentText {
+    .comment-text {
         p:first-of-type {
             text-transform: uppercase;
             font-weight: bold;
@@ -67,7 +67,7 @@
     }
 }
 
-.comment1 {
+.comment-1 {
     margin: 20px 0 60px 0;
 }
 
@@ -83,7 +83,7 @@
     right: 0;
     top: 100px;
 
-    .asideText {
+    .aside-text {
         padding: 20px;
 
         h3:nth-of-type(2) {
@@ -99,7 +99,7 @@
         }
     }
 
-    .asideImage {
+    .aside-image {
         width: 95%;
         position: relative;
         top: -10px;
