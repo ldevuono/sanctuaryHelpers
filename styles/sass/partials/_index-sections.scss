@@ -122,10 +122,23 @@
 }
 
 
-
-
 //SEARCH BY STYLE
 
 .search {
     padding: 0;
+}
+
+.search-image {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.search-text {
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
