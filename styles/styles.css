@@ -363,7 +363,6 @@ section {
 }
 
 .form {
-  margin: 25px 65px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,6 +374,37 @@ section {
 
 textarea {
   width: 100%;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #151514;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #151514;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #151514;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: #151514;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #151514;
+  text-transform: uppercase;
+  opacity: 1;
 }
 
 header {
@@ -413,7 +443,7 @@ header .index-h1 {
 }
 header .header-box-image {
   width: 55%;
-  min-width: 25%;
+  min-width: 600px;
   position: absolute;
   top: 40%;
 }
@@ -581,10 +611,40 @@ header .header-box-image {
 
 .contact-form-section {
   background-color: #e0fddf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form-contact {
+  margin: 10px 150px 0 0;
+}
+
+.contact-form {
+  width: 55%;
+  background-color: #f5f5f5;
+  padding: 30px;
+  -webkit-box-shadow: 15px 15px #f8fb05;
+          box-shadow: 15px 15px #f8fb05;
+  position: relative;
+  left: 20px;
+  top: -160px;
 }
 
 .contact-icons {
   width: 20px;
+}
+
+.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.social-icons li:not(:first-of-type) {
+  padding: 0 10px 10px 10px;
 }
 
 .blog-header {
@@ -624,8 +684,13 @@ header .header-box-image {
   width: 100%;
 }
 
+.comments-form {
+  margin-left: 125px;
+}
+
 .comments {
-  margin: 25px 130px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .comment {
@@ -638,6 +703,7 @@ header .header-box-image {
 }
 .comment .comment-image {
   width: 25%;
+  min-width: 100px;
 }
 .comment .comment-text {
   margin-left: 20px;
@@ -648,7 +714,7 @@ header .header-box-image {
 }
 
 .comment-1 {
-  margin: 20px 0 60px 0;
+  margin: 20px 0 50px 0;
 }
 
 .aside {

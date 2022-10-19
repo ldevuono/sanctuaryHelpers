@@ -52,11 +52,17 @@ section {
 
 // Form
 .form {
-    margin: 25px 65px;
     display: flex;
     flex-direction: column;
 }
 
 textarea {
     width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: variables.$black;
+    text-transform: uppercase;
+    opacity: 1;
 }

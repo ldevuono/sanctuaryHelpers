@@ -44,9 +44,13 @@
 }
 
 //Comments
+.comments-form {
+    margin-left: 125px;
+}
 
 .comments {
-    margin: 25px 130px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .comment {
@@ -55,6 +59,7 @@
 
     .comment-image {
         width: 25%;
+        min-width: 100px;
     }
 
     .comment-text {
@@ -68,11 +73,8 @@
 }
 
 .comment-1 {
-    margin: 20px 0 60px 0;
+    margin: 20px 0 50px 0;
 }
-
-//Form 
-
 
 // Aside
 

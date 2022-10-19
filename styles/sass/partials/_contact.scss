@@ -11,13 +11,37 @@
 }
 
 
-
-
 //Form 
 .contact-form-section {
     background-color: variables.$mint;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-contact {
+    margin: 10px 150px 0 0;
+
+}
+
+.contact-form {
+    width: 55%;
+    background-color: variables.$white;
+    padding: 30px;
+    box-shadow: 15px 15px variables.$highlight;
+    position: relative;
+    left: 20px;
+    top: -160px;
 }
 
 .contact-icons {
     width: 20px;
+}
+
+.social-icons {
+    display: flex;
+
+    li:not(:first-of-type) {
+        padding: 0 10px 10px 10px;
+    }
+
 }
