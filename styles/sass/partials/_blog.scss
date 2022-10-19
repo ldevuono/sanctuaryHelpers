@@ -4,8 +4,10 @@
 
 .blog-header {
     background-image: url("./../assets/blog-image.jpg");
+    height: 65vh;
 }
 
+// Post
 .blog {
     background-color: variables.$mint;
     position: relative;
