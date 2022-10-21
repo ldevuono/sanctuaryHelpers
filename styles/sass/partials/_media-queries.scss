@@ -2,12 +2,13 @@
 
 @media (max-width:1050px) {
 
+    // HEADER
     .wrapper {
         width: 90%;
     }
 
     header {
-        .index-h1 {
+        h1 {
             font-size: 3rem;
         }
 
@@ -15,16 +16,26 @@
             padding: 20px 0px 0px 20px;
         }
     }
+
+    // NEW MATERIALS
+    .new-materials {
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 880px) {
+
+    // HEADER
     header {
+        height: 80vh;
+
         .header-wrapper {
             flex-direction: column-reverse;
             justify-content: center;
             align-items: center;
 
-            nav {
+            nav,
+            .logo {
                 align-self: flex-start;
 
                 .header-nav li {
@@ -34,17 +45,72 @@
                 }
             }
 
-            .index-h1 {
+            h1 {
                 margin: 50px 0 0 0;
             }
+        }
 
-            .logo {
-                align-self: flex-start;
+        .header-box-image {
+            min-width: 350px;
+            top: 50%;
+        }
+    }
+
+    //NEW MATERIALS
+    .new-materials-flex {
+
+        .new-materials-text,
+        .new-materials-image {
+            max-width: 50%;
+        }
+
+    }
+}
+
+@media (max-width: 760px) {
+
+    //NEW MATERIALS
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .new-materials {
+        margin-top: 30px;
+
+
+        .new-materials-flex {
+            flex-direction: column-reverse;
+            align-items: center;
+
+
+            .new-materials-text,
+            .new-materials-image {
+                max-width: 100%;
+                text-align: center;
+                margin: 0;
+            }
+
+            .new-materials-image {
+                margin-bottom: 40px;
             }
         }
     }
 }
 
-// .menu {
-//     display:block;
-// }
+@media (max-width:520px) {
+
+    //HEADER
+    header {
+        .header-wrapper {
+            h1 {
+                font-size: 1.8rem;
+                line-height: 50px;
+            }
+
+            .header-nav li {
+                font-size: .7rem;
+            }
+        }
+    }
+}

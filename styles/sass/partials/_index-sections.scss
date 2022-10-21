@@ -15,10 +15,12 @@
     .new-materials-text {
         max-width: 70%;
         margin-right: 85px;
+        transition: .3s ease;
     }
 
     .new-materials-image {
         max-width: 30%;
+        transition: .3s ease;
 
         img {
             box-shadow: -15px 15px variables.$highlight;
