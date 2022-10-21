@@ -21,6 +21,13 @@
     .new-materials {
         margin-top: 50px;
     }
+
+    //LOCATIONS AND PROGRAMS 
+    .locations-programs {
+        .locations-programs-text {
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width: 880px) {
@@ -64,6 +71,40 @@
             max-width: 50%;
         }
 
+    }
+
+    //LOCATIONS AND PROGRAMS 
+    .locations-programs {
+        flex-direction: column;
+
+        .locations-image,
+        .programs-image {
+            position: static;
+            padding: 0;
+            margin-bottom: 40px;
+        }
+
+
+        .locations-programs-flex {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+        }
+
+        .locations-programs-text {
+            padding: 0 20px;
+        }
+
+        .locations-text {
+            margin-bottom: 40px;
+        }
+    }
+
+    // SEARCH BY STYLE
+    .search-text {
+        padding: 50px;
+        text-align: center;
     }
 }
 
@@ -148,6 +189,11 @@
                 margin-left: 5px;
             }
         }
+    }
 
+    // FOOTER
+    footer {
+        font-size: .8rem;
+        padding: 10px;
     }
 }

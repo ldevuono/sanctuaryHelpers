@@ -110,13 +110,15 @@
         position: relative;
         top: -95px;
         box-shadow: 15px 15px variables.$highlight;
+        transition: .3s ease;
     }
 
     .programs-image {
         position: relative;
         bottom: -95px;
         box-shadow: -15px 15px variables.$highlight;
-        max-width: 672px
+        max-width: 672px;
+        transition: .3s ease;
     }
 
     .locations-programs-text {
