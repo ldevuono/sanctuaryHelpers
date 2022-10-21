@@ -96,6 +96,16 @@
             }
         }
     }
+
+    //INDEX LINKS 
+
+    .index-links-flex {
+        flex-direction: column;
+
+        li {
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width:520px) {
@@ -112,5 +122,32 @@
                 font-size: .7rem;
             }
         }
+    }
+
+    // GALLERY
+
+    .index-gallery {
+        flex-direction: column;
+
+        li {
+            margin: 10px 0;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    // INDEX LINKS
+    .index-links-flex {
+        li {
+            text-align: center;
+
+            .index-links-text {
+                margin-left: 5px;
+            }
+        }
+
     }
 }
