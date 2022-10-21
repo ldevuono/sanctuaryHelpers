@@ -327,6 +327,8 @@ h3 {
   letter-spacing: 1.2px;
   line-height: 25px;
   font-weight: 400;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 nav a {
@@ -412,12 +414,19 @@ header .header-nav li a:focus {
 }
 header .index-h1 {
   margin: 100px 0 0 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 header .header-box-image {
   width: 55%;
   min-width: 600px;
   position: absolute;
   top: 40%;
+}
+header .menu {
+  margin-top: 50px;
+  cursor: pointer;
+  display: none;
 }
 
 .new-materials {
@@ -582,6 +591,8 @@ header .header-box-image {
 .contact-h1,
 .blog-h1 {
   margin-top: 100px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .contact-form-section {
@@ -592,6 +603,7 @@ header .header-box-image {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 0;
 }
 
 .form-contact {
@@ -638,6 +650,7 @@ header .header-box-image {
 .blog {
   background-color: #e0fddf;
   position: relative;
+  padding-bottom: 0;
 }
 
 .blog-section {
@@ -806,4 +819,44 @@ footer {
   background-color: #151514;
   padding: 5px;
   text-align: center;
+}
+
+@media (max-width: 1050px) {
+  .wrapper {
+    width: 90%;
+  }
+  header .index-h1 {
+    font-size: 3rem;
+  }
+  header .header-nav li {
+    padding: 20px 0px 0px 20px;
+  }
+}
+@media (max-width: 880px) {
+  header .header-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .header-wrapper nav {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  header .header-wrapper nav .header-nav li:first-of-type {
+    padding-left: 0;
+  }
+  header .header-wrapper .index-h1 {
+    margin: 50px 0 0 0;
+  }
+  header .header-wrapper .logo {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
 }

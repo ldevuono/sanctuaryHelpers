@@ -30,6 +30,7 @@ header {
 
     .index-h1 {
         margin: 100px 0 0 0;
+        transition: .3s ease;
     }
 
     .header-box-image {
@@ -37,5 +38,12 @@ header {
         min-width: 600px;
         position: absolute;
         top: 40%;
+    }
+
+    // HAMBURGER MENU
+    .menu {
+        margin-top: 50px;
+        cursor: pointer;
+        display: none;
     }
 }

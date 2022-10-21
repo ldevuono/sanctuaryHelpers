@@ -1,0 +1,50 @@
+@use './variables';
+
+@media (max-width:1050px) {
+
+    .wrapper {
+        width: 90%;
+    }
+
+    header {
+        .index-h1 {
+            font-size: 3rem;
+        }
+
+        .header-nav li {
+            padding: 20px 0px 0px 20px;
+        }
+    }
+}
+
+@media (max-width: 880px) {
+    header {
+        .header-wrapper {
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+
+            nav {
+                align-self: flex-start;
+
+                .header-nav li {
+                    &:first-of-type {
+                        padding-left: 0;
+                    }
+                }
+            }
+
+            .index-h1 {
+                margin: 50px 0 0 0;
+            }
+
+            .logo {
+                align-self: flex-start;
+            }
+        }
+    }
+}
+
+// .menu {
+//     display:block;
+// }
