@@ -35,6 +35,7 @@ button {
     all: unset;
 }
 
+// GLOBAL STYLES
 
 section {
     padding: 60px 0;
@@ -43,26 +44,8 @@ section {
 .logo {
     margin-top: 20px;
 
+
     span {
         display: block;
     }
-}
-
-// FORMS
-
-// Form
-.form {
-    display: flex;
-    flex-direction: column;
-}
-
-textarea {
-    width: 100%;
-}
-
-input::placeholder,
-textarea::placeholder {
-    color: variables.$black;
-    text-transform: uppercase;
-    opacity: 1;
 }

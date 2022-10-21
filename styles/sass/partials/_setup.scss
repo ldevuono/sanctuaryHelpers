@@ -252,3 +252,20 @@ html {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+// SKIP LINK
+.skip-link {
+    position: absolute;
+    left: -1000px;
+    z-index: 10;
+    background: white;
+    color: black;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+.skip-link:focus {
+    left: 0;
+    right: 0;
+    text-align: center;
+}

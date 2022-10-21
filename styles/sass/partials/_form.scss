@@ -1,0 +1,54 @@
+@use './variables';
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    input[type=text],
+    input[type=email],
+    textarea {
+        background-color: variables.$mint;
+        border: none;
+        border-bottom: solid 1.5px variables.$black;
+        padding: 0 0 20px 30px;
+        letter-spacing: 2px;
+    }
+
+    textarea {
+        width: 100%;
+        border: 1.5px solid variables.$button;
+        resize: none;
+        padding: 40px 0 20px 30px;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: variables.$black;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+
+    .form-inputs {
+        margin: 40px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    button {
+        text-align: center;
+    }
+}
+
+.contact-form {
+
+    input[type=text],
+    input[type=email],
+    textarea {
+        background-color: variables.$white;
+    }
+
+    .form-inputs {
+        margin-top: 20px;
+    }
+}

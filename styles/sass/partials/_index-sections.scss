@@ -74,7 +74,8 @@
                 display: inline;
             }
 
-            a:hover {
+            a:hover,
+            a:focus {
                 border-bottom: 2px solid variables.$highlight;
                 padding: 2px;
             }

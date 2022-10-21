@@ -10,6 +10,8 @@
 </head>
 
 <body>
+    <!-- SKIP LINK -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <!-- HEADER -->
     <header class="contact-header">
         <div class="wrapper header-wrapper">
@@ -36,48 +38,56 @@
         </div>
     </header>
     <!-- END HEADER -->
-    <!-- FORM -->
-    <section class="contact-form-section">
-        <div class="contact-form">
-            <form action="" class="form">
-                <div class="form-inputs">
-                    <label for="name" class="sr-only">Name</label>
-                    <input type="text" name="name" id="name" placeholder="name">
+    <!-- MAIN SECTION STARTS -->
+    <main id="main-content">
+        <!-- FORM -->
+        <section class="contact-form-section">
+            <div class="contact-form">
+                <form action="" class="form">
+                    <div class="form-inputs">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" name="name" id="name" placeholder="name">
 
-                    <label for="email" class="sr-only">Email Address</label>
-                    <input type="email" name="email" id="email" placeholder="Email Address">
+                        <label for="email" class="sr-only">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                    </div>
+                    <div class="for-text-area">
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea name="message" id="message" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+            </div>
+            <div class="form-contact">
+                <ul class="social-icons">
+                    <li>
+                        <a href="#"><img src="./assets/facebook-svgrepo-com.svg" alt="Facebook"
+                                class="contact-icons"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/instagram-svgrepo-com.svg" alt="Instagram"
+                                class="contact-icons"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/twitter-svgrepo-com.svg" alt="Twitter" class="contact-icons"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/whatsapp-svgrepo-com.svg" alt="WhatsApp"
+                                class="contact-icons"></a>
+                    </li>
+                </ul>
+                <div class=contact-info>
+                    <p>info@email.com</p>
+                    <p>123 - 456 - 7890</p>
+                    <p>123 Queen Street West,
+                    <p>Unit 10</p>
+                    <p>Toronto, Ontario</p>
+                    <p>M5V2D5</p>
                 </div>
-                <div class="for-text-area">
-                    <label for="message" class="sr-only">Message</label>
-                    <textarea name="message" id="message" rows="10" placeholder="Message"></textarea>
-                </div>
-                <button type="submit" class="button">Submit</button>
-            </form>
-        </div>
-        <div class="form-contact">
-            <ul class="social-icons">
-                <li>
-                    <a href="#"><img src="./assets/facebook-svgrepo-com.svg" alt="" class="contact-icons"></a>
-                </li>
-                <li>
-                    <a href="#"><img src="./assets/instagram-svgrepo-com.svg" alt="" class="contact-icons"></a>
-                </li>
-                <li>
-                    <a href="#"><img src="./assets/twitter-svgrepo-com.svg" alt="" class="contact-icons"></a>
-                </li>
-                <li>
-                    <a href="#"><img src="./assets/whatsapp-svgrepo-com.svg" alt="" class="contact-icons"></a>
-                </li>
-            </ul>
-            <p>info@email.com</p>
-            <p>123 - 456 - 7890</p>
-            <p>123 Queen Street West,
-            <p>Unit 10</p>
-            <p>Toronto, Ontario</p>
-            <p>M5V2D5</p>
-        </div>
-    </section>
-    <!-- END FORM -->
+            </div>
+        </section>
+        <!-- END FORM -->
+    </main>
     <!-- FOOTER -->
     <Footer class="contact-footer">
         <p>Copyright © 2022 Juno College</p>

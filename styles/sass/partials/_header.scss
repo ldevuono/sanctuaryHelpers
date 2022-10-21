@@ -21,7 +21,8 @@ header {
     .header-nav li {
         padding: 20px 0px 0px 30px;
 
-        a:hover {
+        a:hover,
+        a:focus {
             border-bottom: 2px solid variables.$highlight;
             padding-bottom: 2px;
         }
