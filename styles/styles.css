@@ -1135,3 +1135,28 @@ header .header-wrapper .logo .header-nav li:first-of-type {
     padding: 10px;
   }
 }
+@media (max-height: 560px) {
+  header .header-box-image {
+    width: 40%;
+    min-width: 200px;
+    top: 60%;
+  }
+  .blog-section {
+    top: -100px;
+  }
+  .contact-form {
+    top: -60px;
+  }
+}
+@media (max-height: 420px) {
+  header .header-box-image {
+    width: 30%;
+    top: 70%;
+  }
+  .new-materials {
+    margin-top: 70px;
+  }
+  .blog-section {
+    top: -80px;
+  }
+}
