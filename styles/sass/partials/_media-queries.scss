@@ -222,7 +222,6 @@
     }
 
     //INDEX LINKS 
-
     .index-links-flex {
         flex-direction: column;
 
@@ -318,6 +317,11 @@
     }
 
     //BLOG
+    //HEADER
+    .blog-h1 {
+        margin-top: 200px;
+    }
+
     // COMMENTS
     .blog-section {
         .comments-form {
