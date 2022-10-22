@@ -116,39 +116,10 @@
     }
 }
 
-// .expand-aside {
-//     width: 350px;
-//     background-color: variables.$highlight;
-//     transform: rotate(-90deg);
-//     position: absolute;
-//     top: 580px;
-//     right: -150px;
-//     transition: .3s ease;
-//     display: none;
-
-//     ul {
-//         display: flex;
-//         justify-content: center;
-
-//         padding: 8px;
-
-//         li:first-of-type {
-//             margin-right: 30px;
-//         }
-//     }
-
-//     button {
-//         cursor: pointer;
-//     }
-// }
-
+//EXPANDABLE ASIDE
 .expand-aside {
-    width: 350px;
+    width: 100%;
     background-color: variables.$highlight;
-    position: absolute;
-    top: 430px;
-    right: 10px;
-    transition: .3s ease;
     display: none;
 
     ul {
@@ -162,15 +133,11 @@
             button:focus {
                 border-bottom: 2px solid variables.$black;
             }
+
+            &:first-of-type {
+                margin-right: 30px;
+
+            }
         }
-
-        li:first-of-type {
-            margin-right: 30px;
-
-        }
-    }
-
-    button {
-        cursor: pointer;
     }
 }

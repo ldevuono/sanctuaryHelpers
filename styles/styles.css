@@ -387,6 +387,10 @@ section {
   display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 header {
   background-image: url("./../assets/header-home.jpg");
   height: 100vh;
@@ -764,13 +768,8 @@ header .header-box-image {
 }
 
 .expand-aside {
-  width: 350px;
+  width: 100%;
   background-color: #f8fb05;
-  position: absolute;
-  top: 430px;
-  right: 10px;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
   display: none;
 }
 .expand-aside ul {
@@ -788,9 +787,6 @@ header .header-box-image {
 }
 .expand-aside ul li:first-of-type {
   margin-right: 30px;
-}
-.expand-aside button {
-  cursor: pointer;
 }
 
 .form {
@@ -1121,17 +1117,15 @@ header .header-wrapper .logo .header-nav li:first-of-type {
     padding-right: 15px;
   }
   .expand-aside {
-    width: 280px;
-    right: 10px;
-  }
-  .expand-aside ul {
     padding: 0;
   }
-  .expand-aside ul li:first-of-type {
-    margin-right: 15px;
+  .expand-aside ul li {
+    padding: 3px;
+    text-align: center;
+    line-height: 25px;
   }
-  .expand-aside p {
-    font-size: 0.7rem;
+  .expand-aside ul li:first-of-type {
+    margin-right: 10px;
   }
   footer {
     font-size: 0.8rem;

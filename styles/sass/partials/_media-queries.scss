@@ -329,39 +329,20 @@
         }
     }
 
-    // ASIDE
-    // .expand-aside {
-    //     width: 300px;
-
-    //     top: 530px;
-    //     right: -135px;
-
-    //     ul {
-    //         li:first-of-type {
-    //             margin-right: 15px;
-    //         }
-
-    //         padding: 0;
-    //     }
-
-    //     p {
-    //         font-size: .7rem;
-    //     }
-    // }
+    // ASIDE 
     .expand-aside {
-        width: 280px;
-        right: 10px;
+        padding: 0;
 
         ul {
-            li:first-of-type {
-                margin-right: 15px;
+            li {
+                padding: 3px;
+                text-align: center;
+                line-height: 25px;
+
+                &:first-of-type {
+                    margin-right: 10px;
+                }
             }
-
-            padding: 0;
-        }
-
-        p {
-            font-size: .7rem;
         }
     }
 
@@ -370,5 +351,4 @@
         font-size: .8rem;
         padding: 10px;
     }
-
 }
