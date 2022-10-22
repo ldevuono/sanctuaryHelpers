@@ -19,16 +19,17 @@
     position: relative;
     left: 0;
     top: -200px;
+    transition: .3s ease;
 }
 
 .blog-post {
-    background-color: variables.$white;
-    border-bottom: 5px solid variables.$highlight;
-    border-right: 5px solid variables.$highlight;
     margin-top: 20px;
 
     .blog-text {
         padding: 35px 20px 20px 50px;
+        background-color: variables.$white;
+        border-bottom: 5px solid variables.$highlight;
+        border-right: 5px solid variables.$highlight;
 
 
         p:not(:last-child) {
@@ -39,6 +40,8 @@
     .blog-image {
         max-width: calc(100% - 20px);
         box-shadow: 20px 20px variables.$highlight;
+        margin-bottom: 20px;
+        transition: .3s ease;
 
         img {
             width: 100%;
@@ -87,6 +90,7 @@
     position: absolute;
     right: 0;
     top: 100px;
+    transition: .3s ease;
 
     .aside-text {
         padding: 20px;
@@ -109,5 +113,31 @@
         position: relative;
         top: -10px;
         right: -15px;
+    }
+}
+
+.expand-aside {
+    width: 350px;
+    background-color: variables.$highlight;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 580px;
+    right: -150px;
+    transition: .3s ease;
+    display: none;
+
+    ul {
+        display: flex;
+        justify-content: center;
+
+        padding: 8px;
+
+        li:first-of-type {
+            margin-right: 30px;
+        }
+    }
+
+    button {
+        cursor: pointer;
     }
 }

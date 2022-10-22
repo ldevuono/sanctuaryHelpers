@@ -3,15 +3,16 @@
 .form {
     display: flex;
     flex-direction: column;
+    transition: .3s ease;
 
     input[type=text],
     input[type=email],
     textarea {
         background-color: variables.$mint;
         border: none;
-        border-bottom: solid 1.5px variables.$black;
+        border-bottom: solid 1.5px variables.$button;
         padding: 0 0 20px 30px;
-        letter-spacing: 2px;
+        letter-spacing: 1.5px;
     }
 
     textarea {
@@ -32,7 +33,6 @@
         margin: 40px 0;
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
     }
 
     button {

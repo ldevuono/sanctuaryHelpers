@@ -25,7 +25,8 @@ h1 {
 h2,
 h3,
 .button,
-.logo {
+.logo,
+.expand-aside {
     font-family: variables.$h2-font;
     font-size: 1.2rem;
     line-height: 40px;
@@ -34,9 +35,14 @@ h3,
 }
 
 .button,
-h3 {
+h3,
+.expand-aside {
     font-size: .8rem;
     letter-spacing: 1px;
+}
+
+.expand-aside {
+    line-height: normal;
 }
 
 .button {
