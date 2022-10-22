@@ -1009,9 +1009,10 @@ header .header-wrapper .logo .header-nav li:first-of-type {
     width: 90%;
     -webkit-box-shadow: none;
             box-shadow: none;
+    margin: 0 auto;
   }
   .contact-form-section .contact-form .form {
-    margin: 0 10px;
+    margin: 0 auto;
   }
   .contact-form-section .form-contact {
     margin: 20px auto;
