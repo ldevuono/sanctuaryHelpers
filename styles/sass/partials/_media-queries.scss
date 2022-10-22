@@ -52,6 +52,18 @@
             }
         }
     }
+
+    //CONTACT
+    .contact-form-section {
+        .contact-form {
+            position: static;
+            margin: 0 0 40px 20px;
+        }
+    }
+
+    .form-contact {
+        margin: 50px 50px 0 0;
+    }
 }
 
 @media (max-width: 880px) {
@@ -155,7 +167,27 @@
             padding: 25px 10px 10px 10px;
         }
     }
+
+    //CONTACT
+    .contact-form-section {
+        flex-direction: column;
+        align-items: center;
+
+        .contact-form {
+            width: 90%;
+            box-shadow: none;
+
+            .form {
+                margin: 0 10px;
+            }
+        }
+
+        .form-contact {
+            margin: 20px auto;
+        }
+    }
 }
+
 
 @media (max-width: 760px) {
 

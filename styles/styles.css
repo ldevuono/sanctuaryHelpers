@@ -326,6 +326,7 @@ h3,
   padding: 5px 10px 0 10px;
   display: inline-block;
   margin: 15px 0;
+  cursor: pointer;
 }
 
 .logo {
@@ -613,10 +614,14 @@ header .header-box-image {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .form-contact {
   margin: 10px 150px 0 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .contact-form {
@@ -628,6 +633,8 @@ header .header-box-image {
   position: relative;
   left: 60px;
   top: -180px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .contact-icons {
@@ -896,6 +903,13 @@ footer {
   .form .form-inputs input[type=text] {
     margin-bottom: 20px;
   }
+  .contact-form-section .contact-form {
+    position: static;
+    margin: 0 0 40px 20px;
+  }
+  .form-contact {
+    margin: 50px 50px 0 0;
+  }
 }
 @media (max-width: 880px) {
   header {
@@ -981,6 +995,26 @@ header .header-wrapper .logo .header-nav li:first-of-type {
   }
   .blog-post .blog-text {
     padding: 25px 10px 10px 10px;
+  }
+  .contact-form-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-form-section .contact-form {
+    width: 90%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .contact-form-section .contact-form .form {
+    margin: 0 10px;
+  }
+  .contact-form-section .form-contact {
+    margin: 20px auto;
   }
 }
 @media (max-width: 760px) {
