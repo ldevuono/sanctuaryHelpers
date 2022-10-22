@@ -1121,9 +1121,8 @@ header .header-wrapper .logo .header-nav li:first-of-type {
     padding-right: 15px;
   }
   .expand-aside {
-    width: 300px;
-    top: 530px;
-    right: -135px;
+    width: 280px;
+    right: 10px;
   }
   .expand-aside ul {
     padding: 0;

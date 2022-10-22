@@ -330,11 +330,27 @@
     }
 
     // ASIDE
-    .expand-aside {
-        width: 300px;
+    // .expand-aside {
+    //     width: 300px;
 
-        top: 530px;
-        right: -135px;
+    //     top: 530px;
+    //     right: -135px;
+
+    //     ul {
+    //         li:first-of-type {
+    //             margin-right: 15px;
+    //         }
+
+    //         padding: 0;
+    //     }
+
+    //     p {
+    //         font-size: .7rem;
+    //     }
+    // }
+    .expand-aside {
+        width: 280px;
+        right: 10px;
 
         ul {
             li:first-of-type {
