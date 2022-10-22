@@ -393,7 +393,7 @@ button {
 
 header {
   background-image: url("./../assets/header-home.jpg");
-  height: 100vh;
+  padding-bottom: 550px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
