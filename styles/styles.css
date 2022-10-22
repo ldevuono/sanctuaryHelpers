@@ -766,11 +766,9 @@ header .header-box-image {
 .expand-aside {
   width: 350px;
   background-color: #f8fb05;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
   position: absolute;
-  top: 580px;
-  right: -150px;
+  top: 430px;
+  right: 10px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   display: none;
@@ -783,6 +781,10 @@ header .header-box-image {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 8px;
+}
+.expand-aside ul li button:hover,
+.expand-aside ul li button:focus {
+  border-bottom: 2px solid #151514;
 }
 .expand-aside ul li:first-of-type {
   margin-right: 30px;
