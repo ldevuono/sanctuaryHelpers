@@ -94,7 +94,8 @@
         }
 
         .header-box-image {
-            display: none;
+            min-width: 350px;
+            top: 50%;
         }
 
     }
@@ -295,6 +296,11 @@
             .header-nav li {
                 font-size: .7rem;
             }
+        }
+
+        .header-box-image {
+            min-width: 300px;
+            top: 60%;
         }
     }
 

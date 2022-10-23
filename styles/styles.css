@@ -946,7 +946,8 @@ header .header-wrapper .logo .header-nav li:first-of-type {
     margin: 50px 0 0 0;
   }
   header .header-box-image {
-    display: none;
+    min-width: 350px;
+    top: 50%;
   }
   .new-materials-flex .new-materials-text,
 .new-materials-flex .new-materials-image {
@@ -1109,6 +1110,10 @@ header .header-wrapper .logo .header-nav li:first-of-type {
   }
   header .header-wrapper .header-nav li {
     font-size: 0.7rem;
+  }
+  header .header-box-image {
+    min-width: 300px;
+    top: 60%;
   }
   .index-gallery {
     -webkit-box-orient: vertical;
