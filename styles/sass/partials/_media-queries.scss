@@ -116,6 +116,7 @@
         .locations-image,
         .programs-image {
             position: static;
+            box-shadow: none;
             padding: 0;
             margin-bottom: 40px;
         }
@@ -184,7 +185,7 @@
         }
 
         .form-contact {
-            margin: 20px auto;
+            margin: 30px auto;
         }
     }
 }
@@ -213,6 +214,10 @@
                 max-width: 100%;
                 text-align: center;
                 margin: 0;
+
+                img {
+                    box-shadow: none;
+                }
             }
 
             .new-materials-image {
@@ -258,13 +263,15 @@
             position: static;
 
             .blog-text {
-                padding: 25px 5px 10px 5px;
+                padding: 25px 5px 20px 5px;
+                border: none;
 
             }
 
             .blog-image {
                 box-shadow: none;
-                margin: 0 auto;
+                margin: 0;
+                max-width: 100%;
             }
         }
     }
