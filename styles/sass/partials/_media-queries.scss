@@ -1,5 +1,11 @@
 @use './variables';
 
+@media (min-width:1520px) {
+    .new-materials {
+        margin-top: 150px;
+    }
+}
+
 @media (max-width:1050px) {
 
     // HEADER

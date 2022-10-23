@@ -439,6 +439,8 @@ header .header-box-image {
 
 .new-materials {
   margin-top: 70px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .new-materials-flex {
@@ -874,6 +876,11 @@ footer {
   text-align: center;
 }
 
+@media (min-width: 1520px) {
+  .new-materials {
+    margin-top: 150px;
+  }
+}
 @media (max-width: 1050px) {
   .wrapper {
     width: 90%;
