@@ -1,11 +1,5 @@
 @use './variables';
 
-@media (min-width:1520px) {
-    .new-materials {
-        margin-top: 150px;
-    }
-}
-
 @media (max-width:1050px) {
 
     // HEADER
@@ -112,7 +106,6 @@
         .new-materials-image {
             max-width: 50%;
         }
-
     }
 
     //LOCATIONS AND PROGRAMS 
@@ -208,11 +201,9 @@
     .new-materials {
         margin-top: 0;
 
-
         .new-materials-flex {
             flex-direction: column-reverse;
             align-items: center;
-
 
             .new-materials-text,
             .new-materials-image {
@@ -385,5 +376,13 @@
     footer {
         font-size: .8rem;
         padding: 10px;
+    }
+}
+
+
+// DEALING WITH OVERLAPPING ON LARGER SCREENS
+@media (min-width:1520px) {
+    .new-materials {
+        margin-top: 150px;
     }
 }

@@ -878,11 +878,6 @@ footer {
   text-align: center;
 }
 
-@media (min-width: 1520px) {
-  .new-materials {
-    margin-top: 150px;
-  }
-}
 @media (max-width: 1050px) {
   .wrapper {
     width: 90%;
@@ -1166,5 +1161,10 @@ header .header-wrapper .logo .header-nav li:first-of-type {
   footer {
     font-size: 0.8rem;
     padding: 10px;
+  }
+}
+@media (min-width: 1520px) {
+  .new-materials {
+    margin-top: 150px;
   }
 }
