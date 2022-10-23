@@ -946,8 +946,10 @@ header .header-wrapper .logo .header-nav li:first-of-type {
     margin: 50px 0 0 0;
   }
   header .header-box-image {
-    min-width: 350px;
-    top: 50%;
+    display: none;
+  }
+  .new-materials {
+    margin-top: 0;
   }
   .new-materials-flex .new-materials-text,
 .new-materials-flex .new-materials-image {
@@ -1031,9 +1033,6 @@ header .header-wrapper .logo .header-nav li:first-of-type {
     font-size: 1rem;
     line-height: 28px;
   }
-  .new-materials {
-    margin-top: 0;
-  }
   .new-materials .new-materials-flex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1110,10 +1109,6 @@ header .header-wrapper .logo .header-nav li:first-of-type {
   }
   header .header-wrapper .header-nav li {
     font-size: 0.7rem;
-  }
-  header .header-box-image {
-    min-width: 300px;
-    top: 60%;
   }
   .index-gallery {
     -webkit-box-orient: vertical;
