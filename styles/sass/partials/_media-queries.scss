@@ -100,9 +100,9 @@
         }
 
         .header-box-image {
-            min-width: 350px;
-            top: 50%;
+            display: none;
         }
+
     }
 
     //NEW MATERIALS
@@ -200,14 +200,13 @@
 @media (max-width: 760px) {
 
     //NEW MATERIALS
-
     h2 {
         font-size: 1rem;
         line-height: 28px;
     }
 
     .new-materials {
-        margin-top: 30px;
+        margin-top: 0;
 
 
         .new-materials-flex {
@@ -291,6 +290,10 @@
 @media (max-width:520px) {
 
     //HEADER
+    .index-header {
+        background-position: 60%;
+    }
+
     header {
         .header-wrapper {
             h1 {
@@ -301,11 +304,6 @@
             .header-nav li {
                 font-size: .7rem;
             }
-        }
-
-        .header-box-image {
-            min-width: 300px;
-            top: 60%;
         }
     }
 

@@ -8,6 +8,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    transition: .3s ease;
 
     .header-wrapper {
         display: flex;
@@ -38,7 +39,7 @@ header {
         width: 55%;
         min-width: 600px;
         position: absolute;
-        top: 40%;
+        top: 45%;
         transition: .3s ease;
     }
 }
