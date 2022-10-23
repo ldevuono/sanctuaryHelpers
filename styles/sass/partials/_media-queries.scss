@@ -289,6 +289,11 @@
                 font-size: .7rem;
             }
         }
+
+        .header-box-image {
+            min-width: 300px;
+            top: 60%;
+        }
     }
 
     // GALLERY
@@ -319,7 +324,22 @@
     //BLOG
     //HEADER
     .blog-h1 {
-        margin-top: 220px;
+        margin-top: 300px;
+    }
+
+    .blog-header {
+        background-position: 45%;
+    }
+
+    // CONTACT
+    //HEADER
+
+    .contact-header {
+        background-position: 55%;
+    }
+
+    .contact-h1 {
+        margin-top: 260px;
     }
 
     // COMMENTS
