@@ -432,7 +432,7 @@ header .index-h1 {
 }
 header .header-box-image {
   width: 55%;
-  min-width: 600px;
+  min-width: 650px;
   position: absolute;
   top: 45%;
   -webkit-transition: 0.3s ease;
