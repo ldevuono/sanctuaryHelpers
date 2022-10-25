@@ -768,6 +768,10 @@ header .header-box-image {
 .aside .aside-text ul p {
   display: inline;
 }
+.aside .aside-text a:hover,
+.aside .aside-text a:focus {
+  border-bottom: 1px solid #151514;
+}
 .aside .aside-image {
   width: 95%;
   position: relative;

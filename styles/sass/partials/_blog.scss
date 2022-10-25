@@ -107,6 +107,11 @@
                 display: inline;
             }
         }
+
+        a:hover,
+        a:focus {
+            border-bottom: 1px solid variables.$black;
+        }
     }
 
     .aside-image {
