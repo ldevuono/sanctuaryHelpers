@@ -45,27 +45,63 @@ formElement.addEventListener("submit", function (event) {
 
 // EXPANDABLE ASIDE
 // pseudocode 
+
 // create a variable to store the aside buttons
 // listen for click on the buttons
 // when clicked, expand each anchor to show text children
-// when clicked again, close expanded aside
+//TODO: when clicked again, close expanded aside
 
 // actual code:
 
 // store aside buttons in a variable 
-// const ourMission = document.getElementsByClassName("aside-button-1");
-// const recentPosts = document.getElementsByClassName("aside-button-2");
-// console.log(ourMission);
+const ourMission = document.querySelector(".aside-button-1");
+const recentPosts = document.querySelector(".aside-button-2");
 
-const aside = document.querySelector(".expand-aside ul");
-console.log(aside);
+// create divs with html to expand when aside is clicked
+const missionText = document.createElement("div");
+missionText.innerHTML = `<p>Nisi lacus sed viverra tellus. Porta
+                            lorem mollis aliquam
+                            ut porttitor leo. Faucibus in ornare quam viverra orci sagittis eu. </p>`
 
-//creating an event handler function to be called inside the event listener
-const expand = function (event) {
-    event.target.style.color = "red";
-    console.log("hi");
-};
+const recentText = document.createElement("div");
+recentText.innerHTML = `<ul>
+                            <li>
+                                <a href="#">
+                                    <p>Lorem mollis aliquam</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>Faucibus in ornare quam</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>Porta
+                                        lorem mollis aliquam</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p>Scelerisque eleifend donec</p>
+                                </a>
+                            </li>
+                        </ul>`;
+// style innerHTML of divs
+recentText.style.fontFamily = "Lato";
+recentText.style.textTransform = "none";
+missionText.style.fontFamily = "Lato";
+missionText.style.textTransform = "none";
+
 
 // listen for click
-aside.addEventListener("click", expand);
+recentPosts.addEventListener("click", function (event) {
+    recentPosts.appendChild(recentText);
+});
+
+ourMission.addEventListener("click", function (event) {
+    ourMission.appendChild(missionText);
+});
+
+// TODO: toggle???
 
