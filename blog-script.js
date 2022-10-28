@@ -1,4 +1,6 @@
 
+// FORM CONFIRMATION //
+
 // pseudocode: //
 // creating a pop-up confirmation upon submission of a comment on the blog page:
 // create a variable to store our form in
@@ -6,7 +8,7 @@
 // create a listener to know when the user has submitted a comment
 // preventDefault() so the browser doesn't refresh upon submit
 // create a div with a p that will be displayed upon submit
-// style the div?
+// TODO: style the div?
 // clear the user inputs from the form upon submit
 
 
@@ -40,3 +42,30 @@ formElement.addEventListener("submit", function (event) {
         emailInputElement.value = "";
     }
 });
+
+// EXPANDABLE ASIDE
+// pseudocode 
+// create a variable to store the aside buttons
+// listen for click on the buttons
+// when clicked, expand each anchor to show text children
+// when clicked again, close expanded aside
+
+// actual code:
+
+// store aside buttons in a variable 
+// const ourMission = document.getElementsByClassName("aside-button-1");
+// const recentPosts = document.getElementsByClassName("aside-button-2");
+// console.log(ourMission);
+
+const aside = document.querySelector(".expand-aside ul");
+console.log(aside);
+
+//creating an event handler function to be called inside the event listener
+const expand = function (event) {
+    event.target.style.color = "red";
+    console.log("hi");
+};
+
+// listen for click
+aside.addEventListener("click", expand);
+
