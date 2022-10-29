@@ -47,9 +47,10 @@ formElement.addEventListener("submit", function (event) {
 // pseudocode 
 
 // create a variable to store the aside buttons
-// listen for click on the buttons
-// when clicked, expand each anchor to show text children
-//TODO: when clicked again, close expanded aside
+// listen for mouse over on the buttons
+// when moused over, expand each anchor to show text children
+// when moused out, close expanded aside
+// TODO: try to get click to work instead
 
 // actual code:
 
@@ -94,14 +95,27 @@ missionText.style.fontFamily = "Lato";
 missionText.style.textTransform = "none";
 
 
-// listen for click
-recentPosts.addEventListener("click", function (event) {
-    recentPosts.appendChild(recentText);
-});
-
-ourMission.addEventListener("click", function (event) {
+// listen for mouseover event
+const toggleOn = function (event) {
     ourMission.appendChild(missionText);
-});
+};
+const toggleOff = function (event) {
+    ourMission.removeChild(missionText);
+};
 
-// TODO: toggle???
+ourMission.addEventListener("mouseover", toggleOn);
+ourMission.addEventListener("mouseout", toggleOff);
+
+
+const toggleOn2 = function (event) {
+    recentPosts.appendChild(recentText);
+};
+const toggleOff2 = function (event) {
+    recentPosts.removeChild(recentText);
+};
+
+recentPosts.addEventListener("mouseover", toggleOn2);
+recentPosts.addEventListener("mouseout", toggleOff2);
+
+
 
