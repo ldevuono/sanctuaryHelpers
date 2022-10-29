@@ -1,14 +1,12 @@
 
 // pseudocode: //
-// creating a pop-up confirmation upon submission of a message on the comment page:
+// creating a confirmation message upon submission of a message on the comment page:
 // create a variable to store our form in
 // create variables for the input elements so we can clear them upon submit
-// create a listener to know when the user has submitted a comment
+// create a listener to know when the user has submitted a message
 // preventDefault() so the browser doesn't refresh upon submit
 // create a div with a p that will be displayed upon submit
-// TODO: style the div?
 // clear the user inputs from the form upon submit
-
 
 // actual code: //
 
@@ -28,11 +26,11 @@ formElement.addEventListener("submit", function (event) {
     const message = textareaElement.value;
     // only do the following if there are values in the inputs
     if (name && email && message) {
-        // create the popup
-        const popUp = document.createElement("div");
-        //create the text inside the popup
-        popUp.innerHTML = "Thank you for your message!"
-        formElement.append(popUp);
+        // create the confirmation message
+        const confirmation = document.createElement("div");
+        //create the text inside the confirmation
+        confirmation.innerHTML = "Thank you for your message!"
+        formElement.append(confirmation);
 
         //clear the input and textarea values back to an empty string upon submitting a comment
         textareaElement.value = "";

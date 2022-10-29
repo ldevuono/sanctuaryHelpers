@@ -1,16 +1,14 @@
 
 // FORM CONFIRMATION //
-
 // pseudocode: //
-// creating a pop-up confirmation upon submission of a comment on the blog page:
+
+// creating a confirmation message upon submission of a comment on the blog page:
 // create a variable to store our form in
 // create variables for the input elements so we can clear them upon submit
 // create a listener to know when the user has submitted a comment
 // preventDefault() so the browser doesn't refresh upon submit
 // create a div with a p that will be displayed upon submit
-// TODO: style the div?
 // clear the user inputs from the form upon submit
-
 
 // actual code: //
 
@@ -30,11 +28,11 @@ formElement.addEventListener("submit", function (event) {
     const comment = textareaElement.value;
     // only do the following if there are values in the inputs
     if (name && email && comment) {
-        // create the popup
-        const popUp = document.createElement("div");
-        //create the text inside the popup
-        popUp.innerHTML = "Thank you for your comment!"
-        formElement.append(popUp);
+        // create the confirmation message
+        const confirmation = document.createElement("div");
+        //create the text inside the confirmation message
+        confirmation.innerHTML = "Thank you for your comment!"
+        formElement.append(confirmation);
 
         //clear the input and textarea values back to an empty string upon submitting a comment
         textareaElement.value = "";
@@ -47,10 +45,10 @@ formElement.addEventListener("submit", function (event) {
 // pseudocode 
 
 // create a variable to store the aside buttons
-// listen for mouse over on the buttons
-// when moused over, expand each anchor to show text children
-// when moused out, close expanded aside
-// TODO: try to get click to work instead
+// listen for click on the buttons
+// when clicked, expand each anchor to show text children
+// when clicked again, close expanded aside
+
 
 // actual code:
 
@@ -95,27 +93,25 @@ missionText.style.fontFamily = "Lato";
 missionText.style.textTransform = "none";
 
 
-// listen for mouseover event
-const toggleOn = function (event) {
-    ourMission.appendChild(missionText);
-};
-const toggleOff = function (event) {
-    ourMission.removeChild(missionText);
-};
-
-ourMission.addEventListener("mouseover", toggleOn);
-ourMission.addEventListener("mouseout", toggleOff);
-
-
-const toggleOn2 = function (event) {
-    recentPosts.appendChild(recentText);
-};
-const toggleOff2 = function (event) {
-    recentPosts.removeChild(recentText);
+// listen for click event
+const toggle1 = function (event) {
+    if (ourMission.contains(missionText)) {
+        ourMission.removeChild(missionText);
+    } else {
+        ourMission.appendChild(missionText);
+    }
 };
 
-recentPosts.addEventListener("mouseover", toggleOn2);
-recentPosts.addEventListener("mouseout", toggleOff2);
+const toggle2 = function (event) {
+    if (recentPosts.contains(recentText)) {
+        recentPosts.removeChild(recentText);
+    } else {
+        recentPosts.appendChild(recentText);
+    }
+};
+
+ourMission.addEventListener("click", toggle1);
+recentPosts.addEventListener("click", toggle2);
 
 
 
