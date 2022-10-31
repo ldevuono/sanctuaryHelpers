@@ -9,7 +9,6 @@
 // clear the user inputs from the form upon submit
 
 // actual code: //
-
 // create a variable for the form element
 const formElement = document.querySelector("form");
 // create a variable for the input and textarea elements so I can clear them upon submit
@@ -28,8 +27,8 @@ formElement.addEventListener("submit", function (event) {
     if (name && email && message) {
         // create the confirmation message
         const confirmation = document.createElement("div");
-        //create the text inside the confirmation
-        confirmation.innerHTML = "Thank you for your message!"
+        //create the text inside the confirmation message
+        confirmation.innerHTML = `Thank you for your message, ${name}!`;
         formElement.append(confirmation);
 
         //clear the input and textarea values back to an empty string upon submitting a comment

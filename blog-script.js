@@ -1,7 +1,6 @@
 
 // FORM CONFIRMATION //
 // pseudocode: //
-
 // creating a confirmation message upon submission of a comment on the blog page:
 // create a variable to store our form in
 // create variables for the input elements so we can clear them upon submit
@@ -11,7 +10,6 @@
 // clear the user inputs from the form upon submit
 
 // actual code: //
-
 // create a variable for the form element
 const formElement = document.querySelector("form");
 // create a variable for the input and textarea elements so I can clear them upon submit
@@ -31,7 +29,7 @@ formElement.addEventListener("submit", function (event) {
         // create the confirmation message
         const confirmation = document.createElement("div");
         //create the text inside the confirmation message
-        confirmation.innerHTML = "Thank you for your comment!"
+        confirmation.innerHTML = `Thank you for your comment, ${name}!`;
         formElement.append(confirmation);
 
         //clear the input and textarea values back to an empty string upon submitting a comment
@@ -43,7 +41,6 @@ formElement.addEventListener("submit", function (event) {
 
 // EXPANDABLE ASIDE
 // pseudocode 
-
 // create a variable to store the aside buttons
 // listen for click on the buttons
 // when clicked, expand each anchor to show text children
@@ -51,7 +48,6 @@ formElement.addEventListener("submit", function (event) {
 
 
 // actual code:
-
 // store aside buttons in a variable 
 const ourMission = document.querySelector(".aside-button-1");
 const recentPosts = document.querySelector(".aside-button-2");
