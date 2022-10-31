@@ -31,7 +31,7 @@ formElement.addEventListener("submit", function (event) {
         confirmation.innerHTML = `Thank you for your message, ${name}!`;
         formElement.append(confirmation);
 
-        //clear the input and textarea values back to an empty string upon submitting a comment
+        //clear the input and textarea values back to an empty string upon submitting a message
         textareaElement.value = "";
         textInputElement.value = "";
         emailInputElement.value = "";
