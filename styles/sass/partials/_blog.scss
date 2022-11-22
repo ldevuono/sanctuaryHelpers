@@ -121,29 +121,3 @@
         right: -15px;
     }
 }
-
-//EXPANDABLE ASIDE
-.expand-aside {
-    width: 100%;
-    background-color: variables.$highlight;
-    display: none;
-
-    ul {
-        display: flex;
-        justify-content: center;
-        padding: 8px;
-
-        li {
-
-            button:hover,
-            button:focus {
-                border-bottom: 2px solid variables.$black;
-            }
-
-            &:first-of-type {
-                margin-right: 30px;
-
-            }
-        }
-    }
-}

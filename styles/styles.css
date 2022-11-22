@@ -779,28 +779,6 @@ header .header-box-image {
   right: -15px;
 }
 
-.expand-aside {
-  width: 100%;
-  background-color: #f8fb05;
-  display: none;
-}
-.expand-aside ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 8px;
-}
-.expand-aside ul li button:hover,
-.expand-aside ul li button:focus {
-  border-bottom: 2px solid #151514;
-}
-.expand-aside ul li:first-of-type {
-  margin-right: 30px;
-}
-
 .form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1070,10 +1048,19 @@ header .header-wrapper .logo .header-nav li:first-of-type {
     width: 100%;
   }
   .aside {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .aside .aside-image {
     display: none;
   }
-  .expand-aside {
-    display: block;
+  .aside .aside-text {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
   }
   .blog {
     position: static;

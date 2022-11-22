@@ -233,11 +233,20 @@
     // BLOG
     // ASIDE
     .aside {
-        display: none;
-    }
+        position: static;
+        display: flex;
+        width: 100%;
 
-    .expand-aside {
-        display: block;
+        .aside-image {
+            display: none
+        }
+
+        .aside-text {
+            width: 100%;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+
     }
 
     // BLOG

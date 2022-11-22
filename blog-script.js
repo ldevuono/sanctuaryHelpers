@@ -32,7 +32,7 @@ formElement.addEventListener("submit", function (event) {
         confirmation.innerHTML = `Thank you for your comment, ${name}!`;
         formElement.append(confirmation);
 
-        //clear the input and textarea values back to an empty string upon submitting a comment
+        //clear the input and textarea values upon submitting a comment, so the placeholder text returns
         textareaElement.value = "";
         textInputElement.value = "";
         emailInputElement.value = "";
@@ -56,7 +56,7 @@ const recentPosts = document.querySelector(".aside-button-2");
 const missionText = document.createElement("div");
 missionText.innerHTML = `<p>Nisi lacus sed viverra tellus. Porta
                             lorem mollis aliquam
-                            ut porttitor leo. Faucibus in ornare quam viverra orci sagittis eu. </p>`
+                            ut porttitor leo. Faucibus in ornare quam viverra orci sagittis eu.</p>`
 
 const recentText = document.createElement("div");
 recentText.innerHTML = `<ul>
