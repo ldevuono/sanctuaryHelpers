@@ -26,7 +26,13 @@
 .form-contact {
     margin: 10px 150px 0 0;
     transition: .3s ease;
+
+    .contact-info p a:hover,
+    .contact-info p a:focus {
+        border-bottom: 2px solid variables.$highlight;
+    }
 }
+
 
 .contact-form {
     width: 55%;

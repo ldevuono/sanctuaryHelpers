@@ -633,6 +633,10 @@ header .header-box-image {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
+.form-contact .contact-info p a:hover,
+.form-contact .contact-info p a:focus {
+  border-bottom: 2px solid #f8fb05;
+}
 
 .contact-form {
   width: 55%;
