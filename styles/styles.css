@@ -426,7 +426,7 @@ header .header-nav li a:focus {
   padding-bottom: 2px;
 }
 header .index-h1 {
-  margin: 100px 0 0 0;
+  margin: 100px 0;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
@@ -434,7 +434,7 @@ header .header-box-image {
   width: 55%;
   min-width: 650px;
   position: absolute;
-  top: 40%;
+  top: 45%;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
