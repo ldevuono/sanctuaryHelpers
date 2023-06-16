@@ -48,11 +48,17 @@ h3,
 .button {
     color: variables.$white;
     background-color: variables.$button;
-    border: 1px solid variables.$black;
+    border: 1px solid variables.$button;
     padding: 5px 10px 0 10px;
     display: inline-block;
     margin: 15px 0;
     cursor: pointer;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        background-color: variables.$button-hover;
+        border-color: variables.$button-hover;
+    }
 }
 
 .logo {

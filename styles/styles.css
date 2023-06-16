@@ -321,12 +321,18 @@ h3,
 
 .button {
   color: #f5f5f5;
-  background-color: #065635;
-  border: 1px solid #151514;
+  background-color: #063f28;
+  border: 1px solid #063f28;
   padding: 5px 10px 0 10px;
   display: inline-block;
   margin: 15px 0;
   cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.button:hover {
+  background-color: #077145;
+  border-color: #077145;
 }
 
 .logo {
@@ -799,13 +805,13 @@ header .header-box-image {
 .form textarea {
   background-color: #e0fddf;
   border: none;
-  border-bottom: solid 1.5px #065635;
+  border-bottom: solid 1.5px #063f28;
   padding: 0 0 20px 30px;
   letter-spacing: 1.5px;
 }
 .form textarea {
   width: 100%;
-  border: 1.5px solid #065635;
+  border: 1.5px solid #063f28;
   resize: none;
   padding: 40px 0 20px 30px;
 }
@@ -920,12 +926,12 @@ footer {
             align-items: center;
   }
   header .header-wrapper nav,
-header .header-wrapper .logo {
+  header .header-wrapper .logo {
     -ms-flex-item-align: start;
         align-self: flex-start;
   }
   header .header-wrapper nav .header-nav li:first-of-type,
-header .header-wrapper .logo .header-nav li:first-of-type {
+  header .header-wrapper .logo .header-nav li:first-of-type {
     padding-left: 0;
   }
   header .header-wrapper h1 {
@@ -938,7 +944,7 @@ header .header-wrapper .logo .header-nav li:first-of-type {
     margin-top: 0;
   }
   .new-materials-flex .new-materials-text,
-.new-materials-flex .new-materials-image {
+  .new-materials-flex .new-materials-image {
     max-width: 50%;
   }
   .locations-programs {
@@ -948,7 +954,7 @@ header .header-wrapper .logo .header-nav li:first-of-type {
             flex-direction: column;
   }
   .locations-programs .locations-image,
-.locations-programs .programs-image {
+  .locations-programs .programs-image {
     position: static;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -1029,13 +1035,13 @@ header .header-wrapper .logo .header-nav li:first-of-type {
             align-items: center;
   }
   .new-materials .new-materials-flex .new-materials-text,
-.new-materials .new-materials-flex .new-materials-image {
+  .new-materials .new-materials-flex .new-materials-image {
     max-width: 100%;
     text-align: center;
     margin: 0;
   }
   .new-materials .new-materials-flex .new-materials-text img,
-.new-materials .new-materials-flex .new-materials-image img {
+  .new-materials .new-materials-flex .new-materials-image img {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
